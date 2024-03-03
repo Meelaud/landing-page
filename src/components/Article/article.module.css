@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+    font-family: 'Satoshi', sans-serif;
+}
+
+
+.card {
+    border-radius: 3rem;
+    padding: 2rem;
+    overflow: auto;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid rgb(181, 201, 127);
+}
+
+.title {
+    font-weight: 900;
+    color: rgb(63, 57, 53);
+    margin-top: 1rem;
+}
+
+.category {
+    opacity: 0.7;
+    color: rgb(63, 57, 53);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button {
+    color: rgb(181, 201, 127);
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.plant {
+    padding-top: 1rem;
+    width: 300px;
+    height: 200px;
+}
+
+.splinePlant {
+    width: 100%;
+    height: auto;
+}
